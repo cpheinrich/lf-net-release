@@ -185,7 +185,7 @@ if __name__ == '__main__':
     io_arg = add_argument_group('In/Out', parser)
     io_arg.add_argument('--in_dir', type=str, default='./samples',
                             help='input image directory')
-    # io_arg.add_argument('--in_dir', type=str, default='./release/outdoor_examples/images/sacre_coeur/dense/images',
+    #io_arg.add_argument('--in_dir', type=str, default='./release/outdoor_examples/images/sacre_coeur/dense/images',
     #                         help='input image directory')
     io_arg.add_argument('--out_dir', type=str, default='./dump_feats',
                             help='where to save keypoints')
